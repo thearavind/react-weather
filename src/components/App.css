@@ -1,0 +1,14 @@
+.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.temp {
+    margin-left: 9px;
+    margin-top: -14px;
+    position: absolute;
+    color: cornsilk;
+}
