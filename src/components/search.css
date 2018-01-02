@@ -1,0 +1,16 @@
+#PlacesAutocomplete__root {
+    position: absolute;
+    z-index: 9999999;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 25%;
+}
+
+.Demo__autocomplete-container {
+    width: 100%;
+}
+
+#my-input-id {
+    width: 100%;
+    padding: 12px;
+}

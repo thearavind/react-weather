@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux'
 import viewportReducers from './viewportReducer'
-import fetchWeatherData from './weatherDataReducer'
+import weatherDataReducer from './weatherDataReducer'
+import errorReducer from './errorReducer'
 
 const reducers = combineReducers({
     viewport: viewportReducers,
-    weather:fetchWeatherData,
+    weather:weatherDataReducer,
+    error:errorReducer,
 })
 
 export default reducers
